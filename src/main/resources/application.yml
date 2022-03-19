@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: base
+
+eureka:
+    server:
+        enableSelfPreservation: true
+        renewalPercentThreshold: 0.85
+    instance:
+        hostname: localhost
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+
+server:
+    port: 8001
