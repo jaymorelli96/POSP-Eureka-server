@@ -4,7 +4,6 @@ spring:
 
 eureka:
     server:
-        enableSelfPreservation: true
         renewalPercentThreshold: 0.85
     instance:
         hostname: localhost
